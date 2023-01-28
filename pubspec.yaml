@@ -1,0 +1,74 @@
+
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^1.0.5"
+  path_drawing: "^1.0.0"
+  flutter: 
+    sdk: "flutter"
+  get: ^4.6.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.12.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Biryani"
+      fonts: 
+        - 
+          asset: "fonts/Biryani-800.ttf"
+          style: "normal"
+          weight: 800
+        - 
+          asset: "fonts/Biryani-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Biryani-regular.ttf"
+          style: "normal"
+          weight: 275
+        - 
+          asset: "fonts/Biryani-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Roboto-300.ttf"
+          style: "normal"
+          weight: 300
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-300italic.ttf"
+          style: "italic"
+          weight: 300
+        - 
+          asset: "fonts/Roboto-700italic.ttf"
+          style: "italic"
+          weight: 700
+    - 
+      family: "DM Serif Display"
+      fonts: 
+        - 
+          asset: "fonts/DMSerifDisplay-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
